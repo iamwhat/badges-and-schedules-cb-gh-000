@@ -5,5 +5,7 @@ def badge_make(name)
 end
 
 def batch_badge_creator(arr)
-  arr.each {|item| badge_make(item)}
+  message = Array.new
+  arr.each {|item| message << badge_make(item)}
+  message
 end
