@@ -9,3 +9,7 @@ def batch_badge_creator(arr)
   arr.each {|item| message << badge_maker(item)}
   message
 end
+
+def assign_rooms(names)
+  
+end
