@@ -1,4 +1,4 @@
 # Write your code here.
 
-def badge_make(string)
+def badge_make(name)
 end
