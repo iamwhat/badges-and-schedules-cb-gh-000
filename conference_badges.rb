@@ -1,9 +1,9 @@
 # Write your code here.
 
 def badge_make(name)
-  puts "Hello, my name is #{name}."
+  "Hello, my name is #{name}."
 end
 
 def batch_badge_creator(arr)
-  arr.each {|item| badge_make(item)}
+  arr.each {|item| puts badge_make(item)}
 end
